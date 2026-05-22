@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training artefacts
+results/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Local data caches
+*.pickle
+*.json.gz
+genre_reviews_dict.pickle
+eval_report.json
+eval_report.txt
+
+# Secrets — never commit
+.env
+.env.*
+*.token
+hf_token.txt
+wandb_key.txt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
